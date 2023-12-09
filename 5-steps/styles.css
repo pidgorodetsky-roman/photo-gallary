@@ -23,15 +23,17 @@ body {
   border-bottom: 4px solid #fdb347;
 }
 /*
-  Крок 17
+ Крок 18
 
-Властивість justify-content визначає як розміщені предмети всередині гнучкого контейнера на головній осі, впливаючи на їхнє положення та простір навколо них.
+Властивість align-items розміщує гнучкий вміст по поперечних осях. В цьому разі, ваш flex-direction встановлений на row, тож поперечні осі будуть вертикальні.
 
-Надайте селектору .gallery властивість justify-content зі значенням center.
+Щоб вертикально зцентрувати зображення, надайте селектору .gallery властивість align-items зі значенням center.
+
 */
 .gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
