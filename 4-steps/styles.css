@@ -1,0 +1,39 @@
+/* Крок 11
+  Наразі зображення завеликі.
+  Створіть селектор .gallery img, щоб націлити їх. 
+  Надайте їм width зі значенням 100% та max-width зі значенням 350px.
+  Також встановіть властивість height на 300px, щоб зберегти однаковий розмір зображень.
+*/
+/*
+  Крок 12
+  Видаліть margin з елемента body, встановіть font-family на sans-serif та надайте йому background-color зі значенням #f5f6f7.
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+}
+/*
+  Крок 13
+  Вирівняйте текст .header за центром. Зробіть текст великими літерами, використовуючи властивість text-transform зі значенням uppercase.
+  Надайте йому відступ зі значенням 32px з всіх боків. Встановіть значення кольору фону на #0a0a23 та тексту на #fff.
+  Додайте border-bottom зі значенням 4px solid #fdb347.
+*/
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
