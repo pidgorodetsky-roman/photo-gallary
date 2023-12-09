@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+/*
+  Крок 14
+  Flexbox — це одновимірний макет CSS, який може керувати тим, як елементи розміщуються та вирівнюються всередині контейнера.
+  Щоб використати його, надайте елементу властивість display зі значенням flex. Це зробить елемент гнучким контейнером. Будь-які прямі дочірні елементи гнучкого контейнера називаються гнучкими елементами.
+  Створіть селектор .gallery та зробіть його гнучким контейнером.
+*/
+.gallery {
+  display: flex;
+}
