@@ -22,11 +22,20 @@ body {
   color: #fff;
   border-bottom: 4px solid #fdb347;
 }
+/* Крок 19
 
+Надайте селектору .gallery властивість padding зі значенням 20px 10px, щоб створити простір навколо контейнера.
+
+Потім надайте йому max-width зі значенням 1400px та додайте margin зі значенням 0 auto, щоб зцентрувати його.
+
+*/
 .gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
