@@ -7,12 +7,16 @@ body {
   font-family: sans-serif;
   background-color: #f5f6f7;
 }
+/* Крок 22
 
+Згладьте зображення, надаючи селектору .gallery img властивість border-radius зі значенням 10px.
+*/
 .gallery img {
   width: 100%;
   max-width: 350px;
   height: 300px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .header {
@@ -23,14 +27,7 @@ body {
   color: #fff;
   border-bottom: 4px solid #fdb347;
 }
-/* Крок 21
 
-Між вашими зображеннями потрібен простір.
-
-Скорочена CSS-властивість gap встановлює проміжки, також відомі як жолоби, між рядками та стовпцями. Властивість gap та її підвластивості row-gap та column-gap забезпечують цю функціональність для гнучкого, сіткового та багатоколонкового макета. Ви застосовуєте властивість до елемента контейнера.
-
-Надайте гнучкому контейнеру .gallery властивість gap зі значенням 16px.
-*/
 .gallery {
   display: flex;
   flex-direction: row;
