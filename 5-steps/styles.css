@@ -22,7 +22,14 @@ body {
   color: #fff;
   border-bottom: 4px solid #fdb347;
 }
+/*
+ Крок 18
 
+Властивість align-items розміщує гнучкий вміст по поперечних осях. В цьому разі, ваш flex-direction встановлений на row, тож поперечні осі будуть вертикальні.
+
+Щоб вертикально зцентрувати зображення, надайте селектору .gallery властивість align-items зі значенням center.
+
+*/
 .gallery {
   display: flex;
   flex-direction: row;
